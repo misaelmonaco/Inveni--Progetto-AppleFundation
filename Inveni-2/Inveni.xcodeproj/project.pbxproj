@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4720212B7EB496006EAB63 /* DettaglioEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4720202B7EB496006EAB63 /* DettaglioEventView.swift */; };
+		794153922B7E5AD90059ECE1 /* InveniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794153912B7E5AD90059ECE1 /* InveniApp.swift */; };
+		794153942B7E5AD90059ECE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794153932B7E5AD90059ECE1 /* ContentView.swift */; };
+		794153962B7E5ADA0059ECE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794153952B7E5ADA0059ECE1 /* Assets.xcassets */; };
+		794153992B7E5ADA0059ECE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794153982B7E5ADA0059ECE1 /* Preview Assets.xcassets */; };
+		794153A32B7E5ADA0059ECE1 /* InveniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794153A22B7E5ADA0059ECE1 /* InveniTests.swift */; };
+		794153AD2B7E5ADA0059ECE1 /* InveniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794153AC2B7E5ADA0059ECE1 /* InveniUITests.swift */; };
+		794153AF2B7E5ADA0059ECE1 /* InveniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794153AE2B7E5ADA0059ECE1 /* InveniUITestsLaunchTests.swift */; };
+		794153BC2B7E5AF80059ECE1 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794153BB2B7E5AF80059ECE1 /* SwiftUIView.swift */; };
+		794153C02B7E5B310059ECE1 /* salvaUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794153BF2B7E5B310059ECE1 /* salvaUI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7941539F2B7E5ADA0059ECE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794153862B7E5AD90059ECE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7941538D2B7E5AD90059ECE1;
+			remoteInfo = Inveni;
+		};
+		794153A92B7E5ADA0059ECE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794153862B7E5AD90059ECE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7941538D2B7E5AD90059ECE1;
+			remoteInfo = Inveni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4720202B7EB496006EAB63 /* DettaglioEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DettaglioEventView.swift; sourceTree = "<group>"; };
+		7941538E2B7E5AD90059ECE1 /* Inveni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inveni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		794153912B7E5AD90059ECE1 /* InveniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InveniApp.swift; sourceTree = "<group>"; };
+		794153932B7E5AD90059ECE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		794153952B7E5ADA0059ECE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		794153982B7E5ADA0059ECE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7941539E2B7E5ADA0059ECE1 /* InveniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InveniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794153A22B7E5ADA0059ECE1 /* InveniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InveniTests.swift; sourceTree = "<group>"; };
+		794153A82B7E5ADA0059ECE1 /* InveniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InveniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794153AC2B7E5ADA0059ECE1 /* InveniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InveniUITests.swift; sourceTree = "<group>"; };
+		794153AE2B7E5ADA0059ECE1 /* InveniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InveniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		794153BB2B7E5AF80059ECE1 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		794153BF2B7E5B310059ECE1 /* salvaUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salvaUI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7941538B2B7E5AD90059ECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7941539B2B7E5ADA0059ECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794153A52B7E5ADA0059ECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794153852B7E5AD90059ECE1 = {
+			isa = PBXGroup;
+			children = (
+				794153902B7E5AD90059ECE1 /* Inveni */,
+				794153A12B7E5ADA0059ECE1 /* InveniTests */,
+				794153AB2B7E5ADA0059ECE1 /* InveniUITests */,
+				7941538F2B7E5AD90059ECE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7941538F2B7E5AD90059ECE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7941538E2B7E5AD90059ECE1 /* Inveni.app */,
+				7941539E2B7E5ADA0059ECE1 /* InveniTests.xctest */,
+				794153A82B7E5ADA0059ECE1 /* InveniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794153902B7E5AD90059ECE1 /* Inveni */ = {
+			isa = PBXGroup;
+			children = (
+				794153912B7E5AD90059ECE1 /* InveniApp.swift */,
+				794153932B7E5AD90059ECE1 /* ContentView.swift */,
+				794153BB2B7E5AF80059ECE1 /* SwiftUIView.swift */,
+				0A4720202B7EB496006EAB63 /* DettaglioEventView.swift */,
+				794153BF2B7E5B310059ECE1 /* salvaUI.swift */,
+				794153952B7E5ADA0059ECE1 /* Assets.xcassets */,
+				794153972B7E5ADA0059ECE1 /* Preview Content */,
+			);
+			path = Inveni;
+			sourceTree = "<group>";
+		};
+		794153972B7E5ADA0059ECE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				794153982B7E5ADA0059ECE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		794153A12B7E5ADA0059ECE1 /* InveniTests */ = {
+			isa = PBXGroup;
+			children = (
+				794153A22B7E5ADA0059ECE1 /* InveniTests.swift */,
+			);
+			path = InveniTests;
+			sourceTree = "<group>";
+		};
+		794153AB2B7E5ADA0059ECE1 /* InveniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				794153AC2B7E5ADA0059ECE1 /* InveniUITests.swift */,
+				794153AE2B7E5ADA0059ECE1 /* InveniUITestsLaunchTests.swift */,
+			);
+			path = InveniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7941538D2B7E5AD90059ECE1 /* Inveni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794153B22B7E5ADA0059ECE1 /* Build configuration list for PBXNativeTarget "Inveni" */;
+			buildPhases = (
+				7941538A2B7E5AD90059ECE1 /* Sources */,
+				7941538B2B7E5AD90059ECE1 /* Frameworks */,
+				7941538C2B7E5AD90059ECE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inveni;
+			productName = Inveni;
+			productReference = 7941538E2B7E5AD90059ECE1 /* Inveni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7941539D2B7E5ADA0059ECE1 /* InveniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794153B52B7E5ADA0059ECE1 /* Build configuration list for PBXNativeTarget "InveniTests" */;
+			buildPhases = (
+				7941539A2B7E5ADA0059ECE1 /* Sources */,
+				7941539B2B7E5ADA0059ECE1 /* Frameworks */,
+				7941539C2B7E5ADA0059ECE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794153A02B7E5ADA0059ECE1 /* PBXTargetDependency */,
+			);
+			name = InveniTests;
+			productName = InveniTests;
+			productReference = 7941539E2B7E5ADA0059ECE1 /* InveniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		794153A72B7E5ADA0059ECE1 /* InveniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794153B82B7E5ADA0059ECE1 /* Build configuration list for PBXNativeTarget "InveniUITests" */;
+			buildPhases = (
+				794153A42B7E5ADA0059ECE1 /* Sources */,
+				794153A52B7E5ADA0059ECE1 /* Frameworks */,
+				794153A62B7E5ADA0059ECE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794153AA2B7E5ADA0059ECE1 /* PBXTargetDependency */,
+			);
+			name = InveniUITests;
+			productName = InveniUITests;
+			productReference = 794153A82B7E5ADA0059ECE1 /* InveniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794153862B7E5AD90059ECE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7941538D2B7E5AD90059ECE1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7941539D2B7E5ADA0059ECE1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7941538D2B7E5AD90059ECE1;
+					};
+					794153A72B7E5ADA0059ECE1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7941538D2B7E5AD90059ECE1;
+					};
+				};
+			};
+			buildConfigurationList = 794153892B7E5AD90059ECE1 /* Build configuration list for PBXProject "Inveni" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794153852B7E5AD90059ECE1;
+			productRefGroup = 7941538F2B7E5AD90059ECE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7941538D2B7E5AD90059ECE1 /* Inveni */,
+				7941539D2B7E5ADA0059ECE1 /* InveniTests */,
+				794153A72B7E5ADA0059ECE1 /* InveniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7941538C2B7E5AD90059ECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794153992B7E5ADA0059ECE1 /* Preview Assets.xcassets in Resources */,
+				794153962B7E5ADA0059ECE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7941539C2B7E5ADA0059ECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794153A62B7E5ADA0059ECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7941538A2B7E5AD90059ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794153942B7E5AD90059ECE1 /* ContentView.swift in Sources */,
+				0A4720212B7EB496006EAB63 /* DettaglioEventView.swift in Sources */,
+				794153C02B7E5B310059ECE1 /* salvaUI.swift in Sources */,
+				794153922B7E5AD90059ECE1 /* InveniApp.swift in Sources */,
+				794153BC2B7E5AF80059ECE1 /* SwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7941539A2B7E5ADA0059ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794153A32B7E5ADA0059ECE1 /* InveniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794153A42B7E5ADA0059ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794153AD2B7E5ADA0059ECE1 /* InveniUITests.swift in Sources */,
+				794153AF2B7E5ADA0059ECE1 /* InveniUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794153A02B7E5ADA0059ECE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7941538D2B7E5AD90059ECE1 /* Inveni */;
+			targetProxy = 7941539F2B7E5ADA0059ECE1 /* PBXContainerItemProxy */;
+		};
+		794153AA2B7E5ADA0059ECE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7941538D2B7E5AD90059ECE1 /* Inveni */;
+			targetProxy = 794153A92B7E5ADA0059ECE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		794153B02B7E5ADA0059ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		794153B12B7E5ADA0059ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794153B32B7E5ADA0059ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inveni/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JM4Y64AW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appProva.Inveni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794153B42B7E5ADA0059ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inveni/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JM4Y64AW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appProva.Inveni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		794153B62B7E5ADA0059ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JM4Y64AW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appProva.InveniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inveni.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inveni";
+			};
+			name = Debug;
+		};
+		794153B72B7E5ADA0059ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JM4Y64AW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appProva.InveniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inveni.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inveni";
+			};
+			name = Release;
+		};
+		794153B92B7E5ADA0059ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JM4Y64AW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appProva.InveniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inveni;
+			};
+			name = Debug;
+		};
+		794153BA2B7E5ADA0059ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JM4Y64AW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appProva.InveniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inveni;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794153892B7E5AD90059ECE1 /* Build configuration list for PBXProject "Inveni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794153B02B7E5ADA0059ECE1 /* Debug */,
+				794153B12B7E5ADA0059ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794153B22B7E5ADA0059ECE1 /* Build configuration list for PBXNativeTarget "Inveni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794153B32B7E5ADA0059ECE1 /* Debug */,
+				794153B42B7E5ADA0059ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794153B52B7E5ADA0059ECE1 /* Build configuration list for PBXNativeTarget "InveniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794153B62B7E5ADA0059ECE1 /* Debug */,
+				794153B72B7E5ADA0059ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794153B82B7E5ADA0059ECE1 /* Build configuration list for PBXNativeTarget "InveniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794153B92B7E5ADA0059ECE1 /* Debug */,
+				794153BA2B7E5ADA0059ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794153862B7E5AD90059ECE1 /* Project object */;
+}
